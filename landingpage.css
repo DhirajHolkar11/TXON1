@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(90deg, blanchedalmond, pink);
+    font-family: 'Poppins', sans-serif;
+}
+
+.data1 {
+    background-color: white;
+    width: 90vw;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1cm;
+
+}
+
+.image1 {
+    width: 60vw;
+    height: 90vh;
+    margin-left: 30vw;
+    position: absolute;
+
+}
+
+.site-info1 {
+    width: 10cm;
+    height: 10cm;
+    position: absolute;
+    margin-left: 3cm;
+    margin-top: 4cm;
+}
+
+.foods1 {
+    font-size: 1cm;
+    margin-bottom: 15px;
+}
+
+.foods2 {
+    margin-bottom: 15px;
+}
+
+.foods3 {
+    font-size: 1cm;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 90px;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.foods1:hover {
+    color: red;
+}
+
+.foods2:hover {
+    color: red;
+}
+
+.foods3:hover {
+    color: red;
+    border: 1px solid red;
+}
+
+.menubar {
+    text-align: center;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(206, 198, 198);
+    height: 1.5cm;
+    position: absolute;
+    width: 90vw;
+}
+
+.sitename1{
+    margin-top: 0.4cm;
+    margin-left: 0.5cm;
+    color: red;
+    font-size: 0.5cm;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    margin-top: 0.1cm;
+    margin-left: 0.6cm;
+    margin-right: 0.6cm;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+li a:hover {
+    color: red;
+}
+
+input {
+    margin-top: 0.3cm;
+    margin-right: 1cm;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 6px;
+    outline: none;
+    width: 6cm;
+}
